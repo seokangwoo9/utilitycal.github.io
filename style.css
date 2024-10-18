@@ -4,20 +4,86 @@ body {
 }
 
 header {
-  background-color: #243642;
+  background-color: #605678;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-h1 {
-  color: #e2f1e7;
+h1,
+h2 {
+  color: #8abfa3;
+  font-family: "Sixtyfour Convergence", sans-serif;
 }
 
+h4 {
+  color: #789dbc;
+  font-family: "Edu AU VIC WA NT Dots", cursive;
+}
+
+h2 {
+  background-color: #605678;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  box-sizing: border-box;
+}
 .color1 {
-  background-color: #629584;
+  background-color: #cbd2a4;
   color: white;
+}
+
+.box {
+  position: fixed;
+  top: 20%;
+  right: 30%;
+}
+
+button {
+  border: 3px solid #a5b68d !important;
+  /* color: #387478 !important; */
+}
+
+button:hover {
+  background-color: #629584 !important;
 }
 
 .container {
   padding: 0;
+  background-color: #ffbf61;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #ffe6a5;
+}
+
+.font-1 {
+  font-family: "Playfair Display";
+}
+
+.font-2 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.but {
+  font-family: "Silkscreen", sans-serif;
+  border: none;
+}
+
+.move {
+  float: rigth;
+}
+
+.ft {
+  font-family: "Cute Font", sans-serif;
+  font-size: 35px;
+  color: #705c53;
+}
+
+.hereo {
+  height: 450px;
 }
