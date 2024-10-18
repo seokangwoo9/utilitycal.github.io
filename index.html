@@ -7,20 +7,51 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Hi+Melody&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Utilities Calculator</title>
   </head>
   <body>
     <div class="container">
-      <header><h1>Utilities Calculator</h1></header>
+      <header>
+        <h1>Utilities Calculator</h1>
+        <h4>by See Kang Wen</h4>
+      </header>
       <section>
-        <p>Master_Room</p>
+        <img src="caterpillar.png" alt="caterpillar" width="50px" class="box" />
+        <p class="font-2">Master Room</p>
         <input
           type="number"
           id="m-c-v"
           step="any"
           placeholder="Input current Wattage"
-          class="form-control-sm"
+          class="form-control-sm font-1"
         />
 
         <input
@@ -28,19 +59,19 @@
           id="m-p-v"
           step="any"
           placeholder="Input previous wattage"
-          class="form-control-sm"
+          class="form-control-sm font-1"
         />
       </section>
       <br />
       <section>
-        <p>Small_Medium_Room</p>
+        <p class="font-2">Small Medium Room</p>
 
         <input
           type="number"
           id="s-m-c-v"
           step="any"
           placeholder="Input current Wattage"
-          class="form-control-sm"
+          class="form-control-sm font-1"
         />
 
         <input
@@ -48,48 +79,56 @@
           id="s-m-p-v"
           step="any"
           placeholder="Input previous wattage"
-          class="form-control-sm"
+          class="form-control-sm font-1"
         />
       </section>
       <br />
       <section>
-        <p>Electric Charges</p>
+        <p class="font-2">Electric Charges</p>
         <input
           type="number"
           id="elec"
           step="any"
           placeholder="input electric bill amount"
-          class="form-control-sm"
+          class="form-control-sm font-1"
         />
       </section>
       <br />
       <section>
-        <p>Water Charges</p>
+        <p class="font-2">Water Charges</p>
         <input
           type="number"
           id="water"
           step="any"
           placeholder="input water bill amount"
-          class="form-control-sm"
+          class="form-control-sm font-1"
         />
       </section>
       <br />
 
       <button
         onclick="calculate()"
-        class="btn btn-outline-primary color1"
+        class="btn btn-outline-primary color1 space but"
         id="liveAlertBtn"
       >
         Submit
       </button>
 
-      <hr />
-      <h2>Result</h2>
-      <div id="liveAlertPlaceholder"></div>
-      <p id="om"></p>
-      <p id="osm"></p>
-      <p id="os"></p>
-      <p id="obm"></p>
+      <!-- <hr /> -->
+    </div>
+    <div class="container hereo">
+      <h2>
+        <img src="nemo2.png" alt="" width="50px" />Result<img
+          src="nemo.png"
+          alt=""
+          width="50px"
+        />
+      </h2>
+      <!-- <img src="" alt="mangrove tree" width="100px" class="move" /> -->
+      <p id="om" class="ft"></p>
+      <p id="osm" class="ft"></p>
+      <p id="os" class="ft"></p>
+      <p id="obm" class="ft"></p>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
