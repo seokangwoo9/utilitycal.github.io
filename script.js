@@ -22,8 +22,8 @@ function calculate() {
   var watervalue = document.getElementById("water").value;
   var nwatervalue = Number(watervalue);
 
-  var masterbill = (nvalue - nvalue1) * 0.57;
-  var smbill = (nsmvalue - nsmvalue1) * 0.57;
+  var masterbill = (nvalue1 - nvalue) * 0.57;
+  var smbill = (nsmvalue1 - nsmvalue) * 0.57;
 
   var elecbill = (nelecvalue - (masterbill + smbill)) / 4;
 
